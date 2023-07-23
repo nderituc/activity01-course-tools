@@ -20,11 +20,15 @@ This is a suggestion that I strongly recommend that you follow.
 We will see how naming code chunks makes our life easier later in this document so be sure to stick around.
 
 ```{r simple-calculations}
+#add 2 to 5
 a<-sum(2,5)
 a
+#creating a vector numbers
 int_vect<-c(1:9)
 int_vect
+#create a vector of letters 
 char_vect<-toupper(letters[1:17])
+#subset string vector and find length of subset
 start<-4
 end<-17
 l<-length(char_vect[start:end])
