@@ -20,7 +20,15 @@ This is a suggestion that I strongly recommend that you follow.
 We will see how naming code chunks makes our life easier later in this document so be sure to stick around.
 
 ```{r simple-calculations}
-
+a<-sum(2,5)
+a
+int_vect<-c(1:9)
+int_vect
+char_vect<-toupper(letters[1:17])
+start<-4
+end<-17
+l<-length(char_vect[start:end])
+l
 ```
 
 In the code chunk named "simple-calculations", add the R code that does the following:
